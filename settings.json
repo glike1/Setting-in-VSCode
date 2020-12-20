@@ -228,7 +228,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.rendererType": "dom",
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "files.autoGuessEncoding": true,
     "editor.formatOnSave": false,
     "workbench.sideBar.location": "left",
