@@ -1,0 +1,31 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "escape escape",
+        "command": "-workbench.action.exitZenMode",
+        "when": "inZenMode"
+    },
+    {
+        "key": "ctrl+k ctrl+h",
+        "command": "extension.openInDefaultBrowser"
+    },
+    {
+        "key": "alt+b",
+        "command": "-extension.openInDefaultBrowser"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "metaGo.selectLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-metaGo.selectLineUp",
+        "when": "editorHasSelection && textInputFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    }
+]

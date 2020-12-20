@@ -1,0 +1,275 @@
+{
+    /* C_Cpp */
+    "C_Cpp.updateChannel": "Default", //设置为“预览体验”以自动下载并安装扩展的最新预览体验版本，其中包括即将推出的功能和 bug 修复。
+    /* Latex workshop */
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "browser",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.gz"
+    ],
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    /* python */
+    "python.insidersChannel": "off",
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "C:\\Users\\glike\\anaconda3\\python.exe",
+    /* markdown all in one */
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.preview.breaks": true,
+    "markdown.extension.syntax.plainTheme": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown.preview.openMarkdownLinks": "inEditor",
+    "markdown.extension.completion.respectVscodeSearchExclude": false,
+    "markdown.extension.print.imgToBase64": true,
+    "markdown.extension.print.theme": "light",
+    "markdown.extension.print.includeVscodeStylesheets": true,
+    /* java */
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "java.semanticHighlighting.enabled": true,
+    /* system */
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "statusBar.background": "#4444",
+            "statusBar.noFolderBackground": "#4444",
+        }
+    },
+    "window.title": "${dirty}${rootName}",
+    "debug.toolBarLocation": "docked",
+    // "terminal.integrated.copyOnSelection": true,
+    "zenMode.hideStatusBar": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "editor.cursorSurroundingLines": 5,
+    "workbench.statusBar.visible": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        }
+    ],
+    "editor.autoClosingBrackets": "always",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "debug.onTaskErrors": "showErrors", //控制在运行预启动任务后遇到错误时应该怎么做。
+    "files.autoSaveDelay": 10,
+    "extensions.ignoreRecommendations": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.fontLigatures": false, //启用不启用字体连字
+    // "editor.fontFamily": "Fira Code Medium,\"微软雅黑\"",
+    // "editor.fontFamily": "Fira Code Retina,\"微软雅黑\"",
+    "editor.fontFamily": "Fira Code,\"微软雅黑\"",
+    "files.associations": {
+        "*.m": "matlab",
+        "*.txt": "plaintext"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[matlab]": {
+        "files.encoding": "gb2312",
+        "editor.defaultFormatter": "AffenWiesel.matlab-formatter",
+        "editor.formatOnSave": true,
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "files.autoGuessEncoding": true
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "files.autoGuessEncoding": true,
+        "editor.formatOnSave": true,
+    },
+    "[java]": {
+        "files.autoGuessEncoding": true,
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[python]": {
+        "files.encoding": "utf8",
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+    },
+    "[markdown]": {
+        "files.encoding": "utf8",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.formatOnSave": true,
+    },
+    "[latex]": {
+        "files.encoding": "utf8",
+        "editor.defaultFormatter": "James-Yu.latex-workshop",
+        "editor.formatOnSave": true,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true,
+    },
+    "[plaintext]": {
+        "files.encoding": "gbk",
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true,
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "jupyter.alwaysTrustNotebooks": true,
+    "editor.minimap.size": "fill",
+    "editor.minimap.enabled": false,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "zenMode.centerLayout": false,
+    "editor.renderWhitespace": "none",
+    "window.restoreWindows": "folders",
+    "window.dialogStyle": "custom",
+    "workbench.activityBar.visible": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "workbench.iconTheme": "vscode-icons",
+    "matlab-formatter.separateBlocks": false,
+    "fileutils.typeahead.enabled": true,
+    "editor.suggestSelection": "first",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": true,
+    "editor.snippetSuggestions": "top",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.rendererType": "dom",
+    "files.autoSave": "onFocusChange",
+    "files.autoGuessEncoding": true,
+    "editor.formatOnSave": false,
+    "workbench.sideBar.location": "left",
+    "window.zoomLevel": 0,
+    "http.proxySupport": "off",
+    /* matlab */
+    "matlab.linterEncoding": "GB 2312",
+    "matlab.matlabpath": "D:\\Program Files\\Polyspace\\R2020a\\bin\\matlab.exe",
+    "matlab.mlintpath": "D:\\Program Files\\Polyspace\\R2020a\\bin\\win64\\mlint.exe",
+    /* liveServer */
+    "liveServer.settings.wait": 0, //Delay before live reloading. Value in milliseconds. Default is 100
+    "liveServer.settings.donotShowInfoMsg": true,
+    /* keilAssistant */
+    "KeilAssistant.MDK.Uv4Path": "D:\\Program Files\\keil\\UV4\\UV4.exe",
+    /* wordcount_cjk */
+    "wordcount_cjk.activateLanguages": [
+        "markdown",
+        "plaintext",
+        "latex"
+    ],
+    "wordcount_cjk.statusBarTextTemplate": "中文：${cjk} 字 + 英文：${en_words} 词",
+    "wordcount_cjk.statusBarTooltipTemplate": "中文字数：${cjk}\\n非 ASCII 字符数：\\t${total - ascii}\\n英文单词数：${en_words}\\n非空白字符数：${total - whitespace}\\n总字符数：${total}",
+    /* vscode-icons */
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "vsicons.presets.angular": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.presets.hideFolders": true,
+    /* drawio */
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    /* marp for vscode */
+    "markdown.marp.enableHtml": true,
+    /* markdown-preview-enhanced */
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.frontMatterRenderingOption": "table",
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "markdown-preview-enhanced.codeBlockTheme": "vs.css",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    /* remote development */
+    "remote.SSH.remotePlatform": {
+        "jetbot": "linux"
+    },
+    "window.menuBarVisibility": "default",
+}
