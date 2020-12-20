@@ -132,6 +132,7 @@
             "filenamePattern": "*.md"
         }
     ],
+    "editor.columnSelection": false,
     "editor.autoClosingBrackets": "always",
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
