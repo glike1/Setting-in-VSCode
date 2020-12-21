@@ -120,7 +120,7 @@
     "window.title": "${dirty}${rootName}",
     "debug.toolBarLocation": "docked",
     // "terminal.integrated.copyOnSelection": true,
-    "zenMode.hideStatusBar": false,
+    "zenMode.hideStatusBar": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
