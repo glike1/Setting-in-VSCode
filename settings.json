@@ -115,6 +115,7 @@
         "[Default Dark+]": {
             "statusBar.background": "#4444",
             "statusBar.noFolderBackground": "#4444",
+            "statusBar.border": "#4444"
         }
     },
     "window.title": "${dirty}${rootName}",
