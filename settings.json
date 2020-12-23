@@ -273,4 +273,11 @@
         "jetbot": "linux"
     },
     "window.menuBarVisibility": "default",
+    /*live share*/
+    "liveshare.allowGuestTaskControl": true,
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.allowInvites": "all",
+    "liveshare.languages.allowGuestCommandControl": true,
+    "liveshare.publishWorkspaceInfo": true,
+    "liveshare.showInStatusBar": "whileCollaborating",
 }
