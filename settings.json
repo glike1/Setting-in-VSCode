@@ -110,7 +110,7 @@
     "java.refactor.renameFromFileExplorer": "autoApply",
     "java.semanticHighlighting.enabled": true,
     /* system */
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
             "statusBar.background": "#4444",
