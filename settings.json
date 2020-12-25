@@ -186,11 +186,11 @@
         "files.encoding": "utf8",
         "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSave": true,
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true,
-        },
+        // "editor.quickSuggestions": {
+        //     "other": true,
+        //     "comments": true,
+        //     "strings": true
+        // }
     },
     "[latex]": {
         "files.encoding": "utf8",
