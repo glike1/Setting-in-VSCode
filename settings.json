@@ -184,12 +184,12 @@
     },
     "[markdown]": {
         "files.encoding": "utf8",
-        "editor.defaultFormatter": "mervin.markdown-formatter",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSave": true,
         "editor.quickSuggestions": {
             "other": true,
             "comments": true,
-            "strings": true
+            "strings": true,
         },
     },
     "[latex]": {

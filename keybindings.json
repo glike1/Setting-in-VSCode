@@ -55,5 +55,30 @@
         "key": "f9",
         "command": "-debug.ahk",
         "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-markdown-preview-enhanced.runAllCodeChunks",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k ctrl+v",
+        "command": "markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
     }
 ]
