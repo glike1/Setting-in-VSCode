@@ -232,6 +232,7 @@
     "editor.mouseWheelZoom": true,
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "top",
+    "window.menuBarVisibility": "default",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.rendererType": "dom",
@@ -278,7 +279,6 @@
     "remote.SSH.remotePlatform": {
         "jetbot": "linux"
     },
-    "window.menuBarVisibility": "default",
     /*live share*/
     "liveshare.allowGuestTaskControl": true,
     "liveshare.allowGuestDebugControl": true,
