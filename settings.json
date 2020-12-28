@@ -184,7 +184,7 @@
     },
     "[markdown]": {
         "files.encoding": "utf8",
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
         "editor.formatOnSave": true,
         // "editor.quickSuggestions": {
         //     "other": true,
@@ -286,4 +286,10 @@
     "liveshare.languages.allowGuestCommandControl": true,
     "liveshare.publishWorkspaceInfo": true,
     "liveshare.showInStatusBar": "whileCollaborating",
+    /* markdown-pdf */
+    "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "markdown-pdf.breaks": true,
+    "markdown-pdf.includeDefaultStyles": false,
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.highlightStyle": "vs.css",
 }
