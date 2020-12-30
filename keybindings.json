@@ -14,7 +14,7 @@
         "command": "-extension.openInDefaultBrowser"
     },
     {
-        "key": "ctrl+i",
+        "key": "ctrl+shift+l",
         "command": "metaGo.selectLineUp",
         "when": "textInputFocus"
     },
@@ -111,5 +111,90 @@
         "key": "ctrl+enter",
         "command": "-todo.toggleBox",
         "when": "editorTextFocus && editorLangId == 'todo'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "alt+a",
+        "command": "-metaGo.selectionSwitchActiveWithAnchor",
+        "when": "editorHasSelection && editorTextFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "metaGo.gotoSmart"
+    },
+    {
+        "key": "alt+oem_2",
+        "command": "-metaGo.gotoSmart"
+    },
+    {
+        "key": "alt+k alt+o",
+        "command": "extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+o",
+        "command": "-extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+k alt+c",
+        "command": "extension.liveServer.goOffline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+c",
+        "command": "-extension.liveServer.goOffline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "metaGo.selectSmart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+oem_2",
+        "command": "-metaGo.selectSmart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "metaGo.addCursorSmart"
+    },
+    {
+        "key": "ctrl+alt+oem_2",
+        "command": "-metaGo.addCursorSmart"
+    },
+    {
+        "key": "alt+b",
+        "command": "-metaGo.scrollCurrentLineToBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+m",
+        "command": "-metaGo.scrollCurrentLineToMiddle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+t",
+        "command": "-metaGo.scrollCurrentLineToTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+b",
+        "command": "metaGo.bookmark.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+oem_7",
+        "command": "-metaGo.bookmark.toggle",
+        "when": "editorTextFocus"
     }
 ]

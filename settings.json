@@ -97,15 +97,8 @@
     "python.languageServer": "Pylance",
     "python.defaultInterpreterPath": "C:\\Users\\glike\\anaconda3\\python.exe",
     /* markdown all in one */
-    "markdown.extension.list.indentationSize": "inherit",
     "markdown.preview.breaks": true,
-    "markdown.extension.syntax.plainTheme": true,
-    "markdown.extension.toc.orderedList": true,
     "markdown.preview.openMarkdownLinks": "inEditor",
-    "markdown.extension.completion.respectVscodeSearchExclude": false,
-    "markdown.extension.print.imgToBase64": true,
-    "markdown.extension.print.theme": "light",
-    "markdown.extension.print.includeVscodeStylesheets": true,
     /* java */
     "java.refactor.renameFromFileExplorer": "autoApply",
     "java.semanticHighlighting.enabled": true,
@@ -120,7 +113,6 @@
     },
     "window.title": "${dirty}${rootName}",
     "debug.toolBarLocation": "docked",
-    // "terminal.integrated.copyOnSelection": true,
     "zenMode.hideStatusBar": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "zenMode.hideLineNumbers": false,
@@ -145,7 +137,7 @@
     "files.autoSaveDelay": 10,
     "extensions.ignoreRecommendations": false,
     "editor.multiCursorModifier": "alt",
-    "editor.fontLigatures": false, //启用不启用字体连字
+    "editor.fontLigatures": false, //不启用字体连字
     // "editor.fontFamily": "Fira Code Medium,\"微软雅黑\"",
     // "editor.fontFamily": "Fira Code Retina,\"微软雅黑\"",
     "editor.fontFamily": "Fira Code,\"微软雅黑\"",
@@ -186,11 +178,6 @@
         "files.encoding": "utf8",
         "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
         "editor.formatOnSave": true,
-        // "editor.quickSuggestions": {
-        //     "other": true,
-        //     "comments": true,
-        //     "strings": true
-        // }
     },
     "[latex]": {
         "files.encoding": "utf8",
@@ -223,7 +210,6 @@
     "window.restoreWindows": "folders",
     "window.dialogStyle": "custom",
     "workbench.activityBar.visible": true,
-    "markdown-preview-enhanced.enableHTML5Embed": true,
     "workbench.iconTheme": "vscode-icons",
     "matlab-formatter.separateBlocks": false,
     "fileutils.typeahead.enabled": true,
@@ -257,8 +243,6 @@
         "plaintext",
         "latex"
     ],
-    "wordcount_cjk.statusBarTextTemplate": "中文：${cjk} 字 + 英文：${en_words} 词",
-    "wordcount_cjk.statusBarTooltipTemplate": "中文字数：${cjk}\\n非 ASCII 字符数：\\t${total - ascii}\\n英文单词数：${en_words}\\n非空白字符数：${total - whitespace}\\n总字符数：${total}",
     /* vscode-icons */
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.angular": true,
@@ -268,13 +252,6 @@
     "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
     /* marp for vscode */
     "markdown.marp.enableHtml": true,
-    /* markdown-preview-enhanced */
-    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
-    "markdown-preview-enhanced.frontMatterRenderingOption": "table",
-    "markdown-preview-enhanced.enableTypographer": true,
-    "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-    "markdown-preview-enhanced.codeBlockTheme": "vs.css",
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
     /* remote development */
     "remote.SSH.remotePlatform": {
         "jetbot": "linux"
