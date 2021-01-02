@@ -106,9 +106,27 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
-            "statusBar.background": "#4444",
-            "statusBar.noFolderBackground": "#4444",
-            "statusBar.border": "#4444"
+            "statusBar.background": "#1e1e1e",
+            "statusBar.noFolderBackground": "#1e1e1e",
+            "statusBar.border": "#1e1e1e",
+            "titleBar.activeBackground": "#1e1e1e",
+            "sideBar.background": "#1e1e1e",
+            "sideBar.border": "#1e1e1e",
+            "activityBar.background": "#1e1e1e",
+            "tab.inactiveBackground": "#1e1e1e",
+            "editorGroupHeader.tabsBackground": "#1e1e1e",
+            "editor.background": "#1e1e1e",
+            "menu.foreground": "#d4d4d4",
+            "foreground": "#d4d4d4",
+            "tab.activeForeground": "#d4d4d4",
+            "terminal.foreground": "#d4d4d4",
+            "input.foreground": "#d4d4d4",
+            "icon.foreground": "#d4d4d4",
+            "statusBar.foreground": "#d4d4d4",
+            "activityBar.foreground": "#d4d4d4",
+            "button.foreground": "#d4d4d4",
+            "titleBar.activeForeground": "#d4d4d4",
+            "sideBarTitle.foreground": "#d4d4d4"
         }
     },
     "window.title": "${dirty}${rootName}",
@@ -176,7 +194,7 @@
     },
     "[markdown]": {
         "files.encoding": "utf8",
-        "editor.defaultFormatter": "darkriszty.markdown-table-prettify",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSave": true,
     },
     "[latex]": {
