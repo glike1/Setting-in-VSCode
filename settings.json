@@ -269,4 +269,6 @@
     "markdown-pdf.includeDefaultStyles": false,
     "markdown-pdf.displayHeaderFooter": false,
     "markdown-pdf.highlightStyle": "vs.css",
+    /*meta jump*/
+    "metaGo.decoration.additionalSingleCharCodeCharacters": "\\",
 }
