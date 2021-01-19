@@ -62,16 +62,6 @@
         "when": "editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+alt+b",
-        "command": "markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
         "key": "ctrl+oem_minus",
         "command": "editor.action.fontZoomOut"
     },
@@ -196,5 +186,25 @@
         "key": "alt+oem_7",
         "command": "-metaGo.bookmark.toggle",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "markdownExtended.toggleBold",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-markdownExtended.toggleBold",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "markdownExtended.formateTable",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+t ctrl+shift+f",
+        "command": "-markdownExtended.formateTable",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
     }
 ]

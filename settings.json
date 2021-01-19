@@ -106,12 +106,19 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
-            "statusBar.background": "#4444",
+            "statusBar.background": "#252526",
+            "activityBar.background": "#1e1e1e",
+            "activityBar.foreground": "#d4d4d4",
+            "titleBar.activeBackground": "#1e1e1e",
+            "sideBarSectionHeader.background": "#1e1e1e",
+            "sideBar.background": "#252526",
+            "tab.inactiveBackground": "#252526",
+            "statusBar.noFolderBackground": "#252526"
         }
     },
     "window.title": "${dirty}${rootName}",
     "debug.toolBarLocation": "docked",
-    "zenMode.hideStatusBar": true,
+    "zenMode.hideStatusBar": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
@@ -136,9 +143,9 @@
     "extensions.ignoreRecommendations": false,
     "editor.multiCursorModifier": "alt",
     "editor.fontLigatures": false, //不启用字体连字
-    // "editor.fontFamily": "Fira Code Medium,\"微软雅黑\"",
+    "editor.fontFamily": "Fira Code ,\"微软雅黑\"",
     // "editor.fontFamily": "Fira Code Retina,\"微软雅黑\"",
-    "editor.fontFamily": "Fira Code,\"微软雅黑\"",
+    // "editor.fontFamily": "Fira Code Medium,Sarasa Fixed SC Semibold",
     "files.associations": {
         "*.m": "matlab",
         "*.txt": "plaintext"
@@ -174,8 +181,8 @@
     },
     "[markdown]": {
         "files.encoding": "utf8",
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSave": true,
+        "editor.quickSuggestions": true,
     },
     "[latex]": {
         "files.encoding": "utf8",
@@ -261,12 +268,11 @@
     "liveshare.languages.allowGuestCommandControl": true,
     "liveshare.publishWorkspaceInfo": true,
     "liveshare.showInStatusBar": "whileCollaborating",
-    /* markdown-pdf */
-    "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-    "markdown-pdf.breaks": true,
-    "markdown-pdf.includeDefaultStyles": false,
-    "markdown-pdf.displayHeaderFooter": false,
-    "markdown-pdf.highlightStyle": "vs.css",
     /*meta jump*/
     "metaGo.decoration.additionalSingleCharCodeCharacters": "\\",
+    "markdownExtended.imageOmitBackground": true,
+    "markdown.styles": [
+        "D:\\Documents\\VSCode\\markdown\\github.css"
+    ],
+    "zenMode.restore": true,
 }
